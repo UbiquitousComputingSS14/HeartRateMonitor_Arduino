@@ -2,7 +2,7 @@
 #include <Adafruit_Sensor.h>
 #include <Adafruit_TSL2561_U.h>
 
-#define DEFAULT_INTERVAL 70
+#define DEFAULT_INTERVAL 125
 uint8_t sampleInterval = DEFAULT_INTERVAL;
 
 Adafruit_TSL2561_Unified tsl = Adafruit_TSL2561_Unified(TSL2561_ADDR_FLOAT, 12345);

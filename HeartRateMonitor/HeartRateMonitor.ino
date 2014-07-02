@@ -92,11 +92,6 @@ void readData()
     
     if (readData == "get settings") {
       printSensorDetails();
-    } else if (readData.startsWith("set sampleInterval", 0)) {
-      readData.replace("set sampleInterval", "");
-      readData.trim();
-      
-      sampleInterval = readData.toInt();
     }
   }
 }
